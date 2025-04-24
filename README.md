@@ -47,16 +47,12 @@ This project requires **Python 3.10+** and is compatible with **macOS, Linux, an
 
 ```
 prompt-strategy-comparison/
-├── prompts/
-│   ├── task_01_chatgpt.md
-│   ├── task_12_claude.md
-│   └── ...
-├── outputs/
-│   ├── chatgpt_outputs/
-│   ├── claude_outputs/
+├── tasks/                 # All task markdowns go here
+│   ├── task01.md
+│   ├── task02.md
 │   └── ...
 ├── report/
-│   └── final_report.pdf
+│   └── summary_report.pdf
 ├── README.md
 ```
 
