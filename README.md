@@ -16,7 +16,7 @@
 ---
 
 # **1. Introduction**  
-This project explores **prompt engineering strategies for AI models** on code-related tasks. Using **ChatGPT (GPT-4)** and **Claude AI**, we compare two prompting methods — **zero-shot** and **chain-of-thought** — across **22 software engineering tasks**, including code generation, bug fixing, and summarization. This project evaluates how different prompting styles affect the quality and reasoning of AI-generated solutions.
+This project explores **prompt engineering strategies for AI models** on code-related tasks. Using **ChatGPT (GPT-4)** and **Claude AI**, we compare two prompting methods — **zero-shot** and **chain-of-thought** — across **22 software engineering tasks**. This project evaluates how different prompting styles affect the quality and reasoning of AI-generated solutions.
 
 ---
 
