@@ -1,5 +1,9 @@
 
+---
 
+### Final `README.md`
+
+```markdown
 # prompt-strategy-comparison
 
 ---
@@ -7,65 +11,44 @@
 # GenAI for Software Development (Prompt Engineering)
 
 * [1 Introduction](#1-introduction)  
-* [2 Getting Started](#2-getting-started)  
-  * [2.1 Setup](#21-setup)  
-  * [2.2 Folder Structure](#22-folder-structure)  
-  * [2.3 Run Models](#23-run-models)  
+* [2 Repository Structure](#2-repository-structure)  
 * [3 Report](#3-report)  
 
 ---
 
 # **1. Introduction**  
-This project explores **prompt engineering strategies for AI models** on code-related tasks. Using **ChatGPT (GPT-4)** and **Claude AI**, we compare two prompting methods — **zero-shot** and **chain-of-thought** — across **22 software engineering tasks**. This project evaluates how different prompting styles affect the quality and reasoning of AI-generated solutions.
+This project explores **prompt engineering strategies** for AI code generation. We evaluated two language models — **ChatGPT (GPT-4)** and **Claude AI** — across 22 programming tasks using two prompting methods:
+
+- **Zero-shot prompting**
+- **Chain-of-thought prompting**
+
+Each model’s output was assessed for accuracy, reasoning quality, and completeness. This work provides insight into how prompt style affects AI performance on real-world software development problems.
 
 ---
 
-# **2. Getting Started**
+# **2. Repository Structure**
 
-This project requires **Python 3.10+** and is compatible with **macOS, Linux, and Windows**. While model interaction was conducted through web interfaces (ChatGPT and Claude), outputs and evaluations are stored and compared in this repository.
-
-## **2.1 Setup**
-
-(1) Clone the repository to your workspace:  
-```shell
-~ $ git clone https://github.com/Mohameddeidd/prompt-strategy-comparison.git
-```
-
-(2) Navigate into the repository:  
-```shell
-~ $ cd prompt-strategy-comparison
-~/prompt-strategy-comparison $
-```
-
-(3) (Optional) Create a virtual environment if you're running supporting scripts locally:
-```shell
-~/prompt-strategy-comparison $ python -m venv venv/
-~/prompt-strategy-comparison $ source venv/bin/activate
-```
-
-## **2.2 Folder Structure**
+This repository contains only two files:
 
 ```
 prompt-strategy-comparison/
-├── tasks/                 # All task markdowns go here
-│   ├── task01.md
-│   ├── task02.md
-│   └── ...
-├── report/
-│   └── summary_report.pdf
-├── README.md
+├── final_report.pdf       # ✅ The full comparative report
+├── README.md              # 📄 This file
 ```
 
-## **2.3 Run Models**
-
-Model runs were completed manually using [ChatGPT (GPT-4)](https://chat.openai.com) and [Claude AI](https://claude.ai).  
-All prompt inputs and outputs were saved in their respective markdown and text files within the `prompts/` and `outputs/` directories.
+No code execution or setup is necessary — all work is contained within the PDF.
 
 ---
 
 # **3. Report**
 
-The final comparative analysis, including prompts, model outputs, reasoning, and conclusions, is available in the file:  
-```plaintext
-report/final_report.pdf
+📄 **[Click here to view the final report (PDF)](./final_report.pdf)**
+
+The report includes:
+- All 22 task prompts
+- Outputs from both ChatGPT and Claude AI
+- Evaluation comments and detailed comparisons
+- Overall performance analysis and conclusions
 ```
+
+---
