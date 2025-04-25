@@ -65,6 +65,5 @@ The final comparative analysis, including prompts, model outputs, reasoning, and
 ```plaintext
 final_report.pdf
 ```
-```
 
 ---
