@@ -1,9 +1,3 @@
-To fix the section headers so they appear like the rest of your README (blue, linkable, and properly formatted on GitHub), remove the bold formatting (`**`) from your headings and use proper `#` Markdown syntax. Here’s the corrected version of your README header section:
-
----
-
-```markdown
-# prompt-strategy-comparison
 
 ---
 
